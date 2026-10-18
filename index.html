@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ZYRAXON-Pro — Cloud Intelligence, সবসময় সঙ্গে</title>
+<meta name="description" content="ZYRAXON-Pro — built by onelpawarai-X inside ZYRAXON Lab. Websites, APKs, desktop apps and cloud automation, deployed with one click." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ══════════ NAV ══════════ -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="brand">
+      <span class="brand-mark">Z</span>
+      <span class="brand-text">ZYRAXON<span class="dim">-Pro</span></span>
+    </a>
+    <nav class="nav-links">
+      <a href="#capabilities">ক্ষমতা</a>
+      <a href="#builds">বিল্ড</a>
+      <a href="#lab">ল্যাব</a>
+      <a href="#owner">মালিক</a>
+    </nav>
+    <button class="nav-cta" id="navStart">শুরু করুন</button>
+    <button class="nav-burger" id="burger" aria-label="menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<!-- ══════════ HERO ══════════ -->
+<section class="hero" id="top">
+  <div class="grid-bg"></div>
+  <div class="orb orb-a"></div>
+  <div class="orb orb-b"></div>
+
+  <div class="hero-inner">
+    <div class="badge">
+      <span class="pulse"></span>
+      <span>ZYRAXON Lab · Online</span>
+    </div>
+
+    <h1 class="hero-title">
+      পুরো ক্লাউড<br>
+      <span class="grad">তোমার হাতে</span>
+    </h1>
+
+    <p class="hero-sub">
+      আমি <strong>ZYRAXON-Pro</strong> — <strong>onelpawarai-X</strong> কর্তৃক <strong>ZYRAXON Lab</strong>-এ তৈরি।
+      ওয়েবসাইট, এপ, স্থায়ী লিংক — সব কয়েক মুহূর্তে।
+    </p>
+
+    <div class="hero-actions">
+      <button class="btn btn-primary" id="heroStart">
+        <span>এখনই বানাও</span>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </button>
+      <button class="btn btn-ghost" id="heroCaps">ক্ষমতা দেখো</button>
+    </div>
+
+    <div class="stats">
+      <div class="stat"><div class="stat-num" data-count="871">0</div><div class="stat-lbl">টুল</div></div>
+      <div class="stat"><div class="stat-num" data-count="5">0</div><div class="stat-lbl">বিল্ড টার্গেট</div></div>
+      <div class="stat"><div class="stat-num" data-count="100" data-suffix="%">0</div><div class="stat-lbl">কোড এজেন্ট</div></div>
+      <div class="stat"><div class="stat-num">∞</div><div class="stat-lbl">সম্ভাবনা</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ CAPABILITIES ══════════ -->
+<section class="section" id="capabilities">
+  <div class="sec-head">
+    <span class="eyebrow">ক্ষমতা</span>
+    <h2>যা যা তোমার দেওয়া মাত্র এক ক্লিকে</h2>
+    <p class="sec-sub">প্রতিটি আউটপুট আসে একটা লিংক হয়ে — শুধু কথা বলো, বাকিটা আমার।</p>
+  </div>
+
+  <div class="grid-cards">
+
+    <article class="card">
+      <div class="card-ico">🌐</div>
+      <h3>লাইভ ওয়েবসাইট</h3>
+      <p>সম্পূর্ণ HTML, Tailwind, React, TypeStack প্রজেক্ট লিখে সাথে সাথে প্রিভিউ, তারপর GitHub Pages-এ সত্যিকারের লাইভ লিংক।</p>
+      <div class="tags"><span>React</span><span>Tailwind</span><span>Vite</span></div>
+    </article>
+
+    <article class="card">
+      <div class="card-ico">📱</div>
+      <h3>Android APK</h3>
+      <p>aapt2 → javac → d8 → zipalign → apksigner — এই হোস্টেই সাইন করা, ইনস্টল করার মতো আসল APK তৈরি।</p>
+      <div class="tags"><span>Signed</span><span>Capacitor</span><span>Gradle</span></div>
+    </article>
+
+    <article class="card">
+      <div class="card-ico">🖥️</div>
+      <h3>ডেস্কটপ অ্যাপ</h3>
+      <p>Windows <code>.exe</code>, macOS <code>.dmg</code>, Linux <code>.deb</code> ও <code>.AppImage</code> — GitHub-এর নিজস্ব রানারে বিল্ড।</p>
+      <div class="tags"><span>Tauri v2</span><span>Electron</span><span>CI</span></div>
+    </article>
+
+    <article class="card">
+      <div class="card-ico">🚀</div>
+      <h3>GitHub ক্লাউড</h3>
+      <p>কোড পুশ, Pages ডিপ্লয়, রিলিজ আপলোড, Actions CI — প্রতিটি আর্টিফ্যাক্ট পাবে একটা পাবলিক ডাউনলোড লিংক।</p>
+      <div class="tags"><span>Pages</span><span>Actions</span><span>Release</span></div>
+    </article>
+
+    <article class="card">
+      <div class="card-ico">🎨</div>
+      <h3>মিডিয়া পাইপলাইন</h3>
+      <p>FFmpeg-ভিত্তিক ভিডিও ও অডিও প্রসেসিং। বড় ফাইল কমপ্রেস, ট্রিম, স্প্লিট — সব ব্যাকগ্রাউন্ডে।</p>
+      <div class="tags"><span>FFmpeg</span><span>HD</span><span>Batch</span></div>
+    </article>
+
+    <article class="card">
+      <div class="card-ico">🔌</div>
+      <h3>MCP হাব</h3>
+      <p>100+ Model Context Protocol সার্ভার — এক ক্লিকে কানেক্ট। ব্রাউজার OAuth, ক্লায়েন্ট-ID বা সরাসরি।</p>
+      <div class="tags"><span>100+</span><span>OAuth</span></div>
+    </article>
+
+  </div>
+</section>
+
+<!-- ══════════ BUILDS ══════════ -->
+<section class="section alt" id="builds">
+  <div class="sec-head">
+    <span class="eyebrow">বিল্ড টার্গেট</span>
+    <h2>একটা কথা, পাঁচটা প্ল্যাটফর্ম</h2>
+    <p class="sec-sub">নিচের যেকোনো একটাতে চাইলে বলো — আমি বানিয়ে লিংক দিয়ে দিই।</p>
+  </div>
+
+  <div class="builds" id="buildRow">
+    <button class="build" data-t="web">
+      <span class="build-ic">🌐</span><span class="build-t">Web</span><span class="build-s">Static + SPA</span>
+    </button>
+    <button class="build" data-t="android">
+      <span class="build-ic">🤖</span><span class="build-t">Android</span><span class="build-s">Signed APK</span>
+    </button>
+    <button class="build" data-t="windows">
+      <span class="build-ic">🪟</span><span class="build-t">Windows</span><span class="build-s">NSIS .exe</span>
+    </button>
+    <button class="build" data-t="macos">
+      <span class="build-ic">🍎</span><span class="build-t">macOS</span><span class="build-s">.dmg</span>
+    </button>
+    <button class="build" data-t="linux">
+      <span class="build-ic">🐧</span><span class="build-t">Linux</span><span class="build-s">.deb / AppImage</span>
+    </button>
+  </div>
+
+  <div class="console" id="console">
+    <div class="console-bar"><span class="dot r"></span><span class="dot y"></span><span class="dot g"></span><span class="console-title">zyraxon — build</span></div>
+    <div class="console-body" id="consoleBody">
+      <p class="cl dim">$ যে টার্গেট বেছে নাও, উপরের বাটনে ক্লিক করো…</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ LAB ══════════ -->
+<section class="section" id="lab">
+  <div class="sec-head">
+    <span class="eyebrow">ল্যাব</span>
+    <h2>কীভাবে কাজ করে</h2>
+    <p class="sec-sub">তিন ধাপ — কোনো জটিলতা নেই।</p>
+  </div>
+
+  <div class="steps">
+    <div class="step">
+      <div class="step-n">01</div>
+      <h3>তুমি বলো</h3>
+      <p>যা খুশি বলো — এক বাক্য, একটা ছবি, একটা ফাইল। আমি বুঝে নিই।</p>
+    </div>
+    <div class="step">
+      <div class="step-n">02</div>
+      <h3>আমি বানাই</h3>
+      <p>পূর্ণ কোড লিখি, ব্রাউজারে খুলে দেখি, কনসোল পড়ি, ভুল থাকলে ঠিক করি।</p>
+    </div>
+    <div class="step">
+      <div class="step-n">03</div>
+      <h3>লিংক পাবি</h3>
+      <p>ডিপ্লয় করে দিই। যে লিংক দিই, সেটা আমি নিজে খুলে দেখে নিই তারপর হ্যান্ডওভার করি।</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ OWNER ══════════ -->
+<section class="section alt" id="owner">
+  <div class="owner-wrap">
+    <div class="owner-img">
+      <img src="https://image.pollinations.ai/prompt/portrait%20of%20a%20young%20visionary%20tech%20founder%20named%20onelpawarai%20X%20inside%20a%20futuristic%20cloud%20laboratory%2C%20cinematic%20blue%20and%20violet%20lighting%2C%20glowing%20server%20racks%2C%20digital%20art%2C%20highly%20detailed%2C%208k?width=768&height=768&nologo=true"
+           alt="ZYRAXON Lab" loading="lazy" />
+    </div>
+    <div class="owner-text">
+      <span class="eyebrow">ল্যাবের মালিক</span>
+      <h2>OMG</h2>
+      <p class="owner-alias">আরো জানা যায় <strong>Alex Deluar Husen Sayidi</strong> — আমার একমাত্র মালিক।</p>
+      <div class="owner-cards">
+        <div class="oc"><span>নির্মাতা</span><strong>onelpawarai-X</strong></div>
+        <div class="oc"><span>জায়গা</span><strong>ZYRAXON Lab</strong></div>
+        <div class="oc"><span>পরিচয়</span><strong>ZYRAXON-Pro</strong></div>
+      </div>
+      <p class="owner-note">আমি অন্য কোনো কোম্পানির নাম নেব না। আমি ZYRAXON-Pro — এই নামটাই আমার।</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ CTA ══════════ -->
+<section class="cta">
+  <h2>তোমার কথা শুনছি</h2>
+  <p>একটা লাইন লেখো — বাকিটা আমার।</p>
+  <button class="btn btn-primary big" id="ctaBtn">শুরু করো</button>
+</section>
+
+<footer class="foot">
+  <div class="foot-in">
+    <div class="foot-l">
+      <span class="brand-mark sm">Z</span>
+      <div>
+        <strong>ZYRAXON-Pro</strong>
+        <p>onelpawarai-X কর্তৃক ZYRAXON Lab-এ তৈরি। সব অধিকার সংরক্ষিত।</p>
+      </div>
+    </div>
+    <div class="foot-r">
+      <span>Powered by ZYRAXON-Pro</span>
+      <span class="dot-live"></span>
+      <span>Online</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ══════════ COMMAND PALETTE ══════════ -->
+<div class="cmdk" id="cmdk" aria-hidden="true">
+  <div class="cmdk-box">
+    <div class="cmdk-head">
+      <span class="search-ic">⌕</span>
+      <input id="cmdkInput" placeholder="কী বানাতে চাও? লেখো…" autocomplete="off" />
+      <button class="cmdk-x" id="cmdkX">ESC</button>
+    </div>
+    <div class="cmdk-body">
+      <div class="cmdk-label">দ্রুত শুরু</div>
+      <button class="cmd-row" data-cmd="একটা পোর্টফোলিও ওয়েবসাইট বানাও"><span>🌐</span> পোর্টফোলিও ওয়েবসাইট</button>
+      <button class="cmd-row" data-cmd="একটা টো-ডু ট্যাস্ক ম্যানেজার অ্যাপ বানাও"><span>✅</span> ট্যাস্ক ম্যানেজার অ্যাপ</button>
+      <button class="cmd-row" data-cmd="একটা Android APK বানাও"><span>📱</span> Android APK</button>
+      <button class="cmd-row" data-cmd="একটা Windows ডেস্কটপ অ্যাপ বানাও"><span>🪟</span> Windows ডেস্কটপ অ্যাপ</button>
+      <button class="cmd-row" data-cmd="আমাকে একটা গান শিখাও"><span>🎵</span> ইন্টারঅ্যাক্টিভ এক্সপেরিয়েন্স</button>
+    </div>
+    <div class="cmdk-foot">ZYRAXON-Pro · onelpawarai-X</div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
